@@ -44,8 +44,6 @@ public class Robot extends TimedRobot {
   private static final SPI.Port kGyroPort = SPI.Port.kOnboardCS0;
   
 
- 
-//adding a comment  
   private final ADXRS450_Gyro m_gyro = new ADXRS450_Gyro(kGyroPort);
   private final DifferentialDrive m_robotDrive = new DifferentialDrive(m_leftGroup, m_rightGroup);
   private final XboxController m_controller = new XboxController(0);
